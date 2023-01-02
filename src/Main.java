@@ -3,9 +3,9 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Person p1 = new Person("Маша", "Машина", 1);
-        Person p2 = new Person("Пятя", "Петрооооооооооооооооооооооооооов", 10);
-        Person p3 = new Person("Саша", "Васиииииииииииин", 7);
+        Person p1 = new Person("Маша", "Машина-Кузнецова", 15);
+        Person p2 = new Person("Пятя", "Петров-Перемычкин", 10);
+        Person p3 = new Person("Саша", "Васин", 7);
         List<Person> persons = new ArrayList<>();
         persons.add(p1);
         persons.add(p2);
