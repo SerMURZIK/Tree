@@ -27,7 +27,7 @@ public class Comparator implements java.util.Comparator<Person> {
     }
 
     private int getAmountOfWordsOfSurname(String surname) {
-        return surname.split("(?=[A-Z])").length;
+        return surname.split("(?U)\\W").length;
     }
 
     private int getAmountOfLettersOfSurname(String surname) {
